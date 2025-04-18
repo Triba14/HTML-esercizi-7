@@ -284,35 +284,39 @@ h1, h2 {
     align-items: center;
 }
 
-.footer__logo-link {
-    text-decoration: none;
-    display: block;
-
+.footer__logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    flex:1;
 }
 
 .footer__logo {
     display: block;
     height: 100px;
     width: auto;
+    flex:1;
 }
 
-.footer__links {
+.footer__links-left {
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex:1;
 }
 
 .footer__social {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex:1;
 }
 
 .footer__link {
     font-family: 'Bebas Neue', sans-serif ;
     font-size: 1.3rem;
     display: flex;
-    margin: 0 15px;
+    margin-left: 20px;
     text-decoration: none;
     color: orangered;
     font-weight: bold;
