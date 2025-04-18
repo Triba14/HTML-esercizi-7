@@ -173,6 +173,47 @@ h1, h2 {
     background-color: darkorange;
 }
 
+.logos-section {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin: 40px 0;
+    border: 1px solid #ddd;
+}
+
+.logos-section__title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: orangered;
+    text-align: center;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-item {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.round-logo:hover {
+    transform: scale(1.4);
+}
+
 .newsletter {
     background-color: #e0e0e0;
     padding: 30px;
@@ -187,6 +228,18 @@ h1, h2 {
 .newsletter__text {
     margin-bottom: 20px;
     color: #555;
+}
+
+.newsletter__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .newsletter__form {
